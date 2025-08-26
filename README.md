@@ -40,4 +40,10 @@ O projeto consiste em uma interface visual que demonstra como uma plataforma de 
 
 ---
 
+## 🔗 Link do Projeto
+
+Acesse o projeto online clicando aqui: [ElevaTech - Projeto Online](https://cristalfigueiredoo.github.io/ElevaTech/)
+
+---
+
 _Este projeto foi criado exclusivamente para fins acadêmicos no curso técnico do COTEMIG._
