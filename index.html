@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eleva Tech | Segurança Inteligente para o Futuro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo"><img src="assets/logo.png" alt="ElevaTech" /></div>
+        <ul class="menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#equipe">Equipe</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="contato-topo">
+          <button id="btn-orcamento" class="btn-orcamento">
+            Orçamento Grátis
+          </button>
+
+          <!-- Modal Orçamento -->
+          <div id="modal-orcamento" class="modal hidden">
+            <div class="modal-content">
+              <span class="close-button" data-close="modal-orcamento"
+                >&times;</span
+              >
+              <h2>Solicite seu Orçamento Grátis</h2>
+              <form id="form-orcamento">
+                <input
+                  type="text"
+                  name="nome"
+                  placeholder="Seu nome"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Seu e-mail"
+                  required
+                />
+                <input type="tel" name="telefone" placeholder="Seu telefone" />
+                <textarea
+                  name="mensagem"
+                  placeholder="Descreva sua necessidade"
+                  required
+                ></textarea>
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+      <div class="hero-text">
+        <h1>Segurança <span>Inteligente</span><br />para o Futuro</h1>
+        <p>
+          Tecnologia de ponta em câmeras IP para proteger o que mais importa.<br />
+          Monitoramento 24h com qualidade profissional e instalação
+          especializada.
+        </p>
+        <div class="hero-buttons">
+          <a href="formulario.html">
+            <button class="btn"><strong>Solicitar Orçamento</strong></button>
+          </a>
+          <button class="btn-outline">
+            <a href="#produtos"><strong class="cargo">Ver Produtos</strong></a>
+          </button>
+        </div>
+        <div class="hero-infos">
+          <div><strong>+1000</strong><br />Clientes Protegidos</div>
+          <div><strong>24/7</strong><br />Monitoramento</div>
+          <div><strong>5 Anos</strong><br />Garantia</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produtos -->
+    <section id="produtos" class="produtos">
+      <h2>Produtos em Destaque</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="assets/camera1.png" alt="Câmera IP Dome" />
+          <div class="ajuste">
+            <h3>Câmera IP Dome</h3>
+            <p>
+              Se você procura segurança discreta e confiável, esta é a escolha
+              ideal. Seu design moderno se adapta a qualquer ambiente interno,
+              protegendo sem chamar a atenção. A alta qualidade de imagem
+              permite identificar detalhes cruciais mesmo à noite, garantindo
+              tranquilidade 24h.
+            </p>
+            <h4>Especificações Técnicas:</h4>
+            <p>
+              Full HD 1080p, visão noturna infravermelha, resolução de detecção
+              de movimento, conexão IP via cabo ou Wi-Fi, instalação no teto.
+            </p>
+            <ul>
+              <li><span class="text-li">Full HD 1080p</span></li>
+              <li><span class="text-li">Visão Noturna</span></li>
+              <li><span class="text-li">Detecção Movimento</span></li>
+              <li><span class="text-li">Conexão IP</span></li>
+            </ul>
+            <a href="formulario.html">
+              <button class="btn"><strong>Solicitar Orçamento</strong></button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/camera2.png" alt="Câmera IP Bullet" />
+          <div class="ajuste">
+            <h3>Câmera IP Bullet</h3>
+            <p>
+              Perfeita para áreas externas, esta câmera também tem resistência e
+              nitidez excepcionais. Sua robustez transmite segurança antes mesmo
+              de ser ligado, enquanto sua tecnologia garante vigilância
+              confiável mesmo sob chuva e sol intenso.
+            </p>
+            <h4>Especificações Técnicas:</h4>
+            <p>
+              Full HD 1080p ou 4K opcional, resolução noturna de longo alcance,
+              proteção IP66 contra água e poeira, conexão IP cabeada ou sem fio.
+            </p>
+            <ul>
+              <li><span class="text-li">4K Opcional</span></li>
+              <li><span class="text-li">Proteção IP66</span></li>
+              <li><span class="text-li">Uso Externo</span></li>
+              <li><span class="text-li">Longo Alcance</span></li>
+            </ul>
+            <a href="formulario.html">
+              <button class="btn btn-faleconosco">
+                <strong>Solicitar Orçamento</strong>
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/camera3.png" alt="Câmera Speed Dome PTZ" />
+          <div class="ajuste">
+            <h3>Câmera Speed Dome PTZ</h3>
+            <p>
+              O olhar que tudo vê. Com rotação panorâmica e zoom potente, ela
+              acompanha cada detalhe de grandes áreas, sendo perfeita para
+              estacionamentos, empresas e espaços públicos. Com essa tecnologia,
+              você sempre será um passo à frente.
+            </p>
+            <h4>Especificações Técnicas:</h4>
+            <p>
+              Full HD 1080p ou 4K opcional, resolução noturna de longo alcance,
+              proteção IP66 contra água e poeira, conexão IP cabeada ou sem fio.
+            </p>
+            <ul>
+              <li><span class="text-li">Rotação 360º</span></li>
+              <li><span class="text-li">Zoom 30x</span></li>
+              <li><span class="text-li">Controle App</span></li>
+              <li><span class="text-li">Visão Avançada</span></li>
+            </ul>
+            <a href="formulario.html">
+              <button class="btn"><strong>Solicitar Orçamento</strong></button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="servicos">
+      <h2>Nossos Serviços</h2>
+      <p>
+        Oferecemos soluções completas em segurança eletrônica, desde o projeto
+        até a manutenção, com equipe <br />
+        especializada e suporte técnico diferenciado.
+      </p>
+      <div class="grid">
+        <div class="box">
+          <h3>Instalação e Configuração</h3>
+          <span class="text">
+            Instalação profissional completa com configuração otimizada para
+            desempenho máximo. Nossa equipe técnica especializada garante um
+            funcionamento perfeito desde o primeiro dia.
+          </span>
+          <ul>
+            <li><span class="text-li2">Análise técnica do local</span></li>
+            <li><span class="text-li2">Instalação certificada</span></li>
+            <li><span class="text-li2">Configuração</span></li>
+            <li><span class="text-li2">Testes de qualidade</span></li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Monitoramento 24h</h3>
+          <span class="text">
+            Central de monitoramento próprio com vigilância ininterrupta.
+            Resposta imediata a qualquer evento detectado, garantindo sua
+            segurança a qualquer hora.
+          </span>
+          <ul>
+            <li><span class="text-li2">Central própria</span></li>
+            <li><span class="text-li2">Equipe treinada</span></li>
+            <li><span class="text-li2">Resposta rápida</span></li>
+            <li><span class="text-li2">Relatórios detalhados</span></li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Manutenção Preventiva</h3>
+          <span class="text">
+            Programa completo de manutenção para garantir o funcionamento
+            contínuo. Visitas técnicas regulares e atualizações de software
+            incluídos.
+          </span>
+          <ul>
+            <li><span class="text-li2">Visitas programadas</span></li>
+            <li><span class="text-li2">Limpeza de equipamentos</span></li>
+            <li><span class="text-li2">Atualizações de software</span></li>
+            <li><span class="text-li2">Relatório de manutenção</span></li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Consultoria em Segurança</h3>
+          <span class="text">
+            Análise completa de vulnerabilidades e projeto personalizado de
+            segurança. Desenvolvemos a solução ideal para cada tipo de ambiente
+            e necessidade.
+          </span>
+          <ul>
+            <li><span class="text-li2">Diagnóstico gratuito</span></li>
+            <li><span class="text-li2">Projeto personalizado</span></li>
+            <li><span class="text-li2">Orçamento detalhado</span></li>
+            <li><span class="text-li2">Suporte especializado</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="sobre" class="sobre">
+      <h2>Sobre Nós</h2>
+      <div class="sobre-conteudo">
+        <div class="texto">
+          <h4>Especialistas em Segurança Eletrônica há mais de uma década</h4>
+          <p>
+            A <strong>ElevaTech</strong> nasceu da visão de oferecer soluções de
+            segurança eletrônica de alta qualidade, combinando tecnologia de
+            ponta com atendimento personalizado. Desde nossa fundação, nos
+            especializamos em câmeras IP e sistemas de monitoramento
+            inteligente.
+          </p>
+          <p>
+            Nossa equipe é formada por profissionais altamente especializados,
+            com certificações internacionais e experiência comprovada em
+            projetos de diferentes complexidades. Acreditamos que a segurança
+            vai além da tecnologia — é sobre tranquilidade e confiança.
+          </p>
+          <!-- Botão que abre -->
+          <button onclick="abrirModal('modalSuporte')" class="btn">
+            Fale Conosco
+          </button>
+
+          <!-- Modal de Suporte -->
+          <div id="modalSuporte" class="modalSuporte">
+            <div class="modal-contentsuporte suporte">
+              <span class="close" onclick="fecharModal('modalSuporte')"
+                >&times;</span
+              >
+              <h2>Central de Suporte</h2>
+              <ul class="lista-suporte">
+                <li>
+                  <strong>Problemas com Equipamentos:</strong> Equipamentos não
+                  ligam, não gravam ou falhas no sistema.
+                </li>
+                <li>
+                  <strong>Suporte Técnico:</strong> Configurações, atualizações
+                  ou suporte remoto.
+                </li>
+                <li>
+                  <strong>Instalação e Manutenção:</strong> Agendamento ou
+                  dúvidas sobre instalação/manutenção.
+                </li>
+                <li>
+                  <strong>Dúvidas sobre Produtos:</strong> Informações técnicas,
+                  compatibilidade, garantias.
+                </li>
+                <li>
+                  <strong>Outros Assuntos:</strong> Financeiro, comercial,
+                  feedbacks.
+                </li>
+              </ul>
+              <div class="contato-suporte">
+                <h3>Entre em Contato</h3>
+                <p>
+                  <strong>WhatsApp:</strong> <a href="#">(00) 00000-0000</a>
+                </p>
+                <p>
+                  <strong>E-mail:</strong>
+                  <a href="mailto:contato@elevatech.com.br"
+                    >contato@elevatech.com.br</a
+                  >
+                </p>
+                <p>
+                  <strong>Horário de Atendimento:</strong> Seg. a Sex. das 08h
+                  às 18h
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="blocos">
+          <div class="box">
+            <h3>Nossa Equipe</h3>
+            <p>
+              Contamos com profissionais certificados em segurança eletrônica,
+              altamente capacitados e em constante atualização com as mais
+              avançadas tecnologias do mercado. Garantimos soluções modernas,
+              eficientes e alinhadas às necessidades atuais de proteção
+              residencial e empresarial.
+            </p>
+          </div>
+          <div class="box">
+            <h3>Nossa Missão</h3>
+            <p>
+              Nossa missão é proteger pessoas e patrimônios por meio de soluções
+              inovadoras, eficazes e tecnológicas, oferecendo segurança,
+              confiança e tranquilidade em todos os momentos. Atuamos com
+              responsabilidade e compromisso para garantir a proteção completa
+              de nossos clientes, em qualquer cenário.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipe" class="equipe">
+      <h2>Nossa Equipe</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="assets/equipe1.jpg" alt="Membro da equipe" />
+          <div class="info">
+            <h3>Artur Victor</h3>
+            <p class="cargo">CEO & Fundador</p>
+            <div class="detalhes">
+              <p>
+                <strong class="Strong">Experiência:</strong>
+                Lidera a ElevaTech com visão estratégica e experiência em
+                segurança eletrônica.
+              </p>
+              <p><strong class="Strong">Especialidades:</strong></p>
+              <ul>
+                <li><span class="text-li3">Gestão Estratégica</span></li>
+                <li><span class="text-li3">Inovação Tecnológica</span></li>
+                <li>
+                  <span class="text-li3">Desenvolvimento de Negocios</span>
+                </li>
+                <li><span class="text-li3">Liderança</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/equipe2.jpg" alt="Membro da equipe" />
+          <div class="info">
+            <h3>Pablo Alex</h3>
+            <p class="cargo">Gerente Administrativo</p>
+            <div class="detalhes">
+              <p>
+                <strong class="Strong">Experiência:</strong>
+                Responsável pela gestão administrativa e financeira, garantindo
+                eficiência operacional.
+              </p>
+              <p><strong class="Strong">Especialidades:</strong></p>
+              <ul>
+                <li><span class="text-li3">Gestão Financeira</span></li>
+                <li><span class="text-li3">Recursos Humanos</span></li>
+                <li>
+                  <span class="text-li3">Desenvolvimento de Negocios</span>
+                </li>
+                <li><span class="text-li3">Processos</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/equipe3.jpg" alt="Membro da equipe" />
+          <div class="info">
+            <h3>Davi Marques</h3>
+            <p class="cargo">Gerente de Materiais</p>
+            <div class="detalhes">
+              <p>
+                <strong class="Strong">Experiência:</strong>
+                Especialista em logística e suprimentos, garantindo a qualidade
+                dos equipamentos.
+              </p>
+              <p><strong class="Strong">Especialidades:</strong></p>
+              <ul>
+                <li><span class="text-li3">Logística</span></li>
+                <li><span class="text-li3">Qualidade</span></li>
+                <li><span class="text-li3">Fornecedores</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/equipe4.jpg" alt="Membro da equipe" />
+          <div class="info">
+            <h3>Arthur Lopes</h3>
+            <p class="cargo">Gerente de Projetos</p>
+            <div class="detalhes">
+              <p>
+                <strong class="Strong">Experiência:</strong>
+                Coordena projetos complexos de segurança com precisão e
+                eficiência.
+              </p>
+              <p><strong class="Strong">Especialidades:</strong></p>
+              <ul>
+                <li><span class="text-li3">Gestão de Projetos</span></li>
+                <li><span class="text-li3">Planejamento</span></li>
+                <li><span class="text-li3">Execução</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/equipe5.jpg" alt="Membro da equipe" />
+          <div class="info">
+            <h3>João Buzelin</h3>
+            <p class="cargo">Gerente de IA</p>
+            <div class="detalhes">
+              <p>
+                <strong class="Strong">Experiência:</strong>
+                Lidera desenvolvimento de soluções inteligentes e análise de
+                vídeo avançada.
+              </p>
+              <p><strong class="Strong">Especialidades:</strong></p>
+              <ul>
+                <li><span class="text-li3">Inteligência Artificial</span></li>
+                <li><span class="text-li3">Aprendizado de máquina</span></li>
+                <li><span class="text-li3">Análise de Vídeo</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/equipe6.jpg" alt="Membro da equipe" />
+          <div class="info">
+            <h3>Cristal Figueiredo</h3>
+            <p class="cargo">Gerente de TI</p>
+            <div class="detalhes">
+              <p>
+                <strong class="Strong">Experiência:</strong>
+                Responsável pela infraestrutura tecnológica e segurança digital
+                da empresa.
+              </p>
+              <p><strong class="Strong">Especialidades:</strong></p>
+              <ul>
+                <li><span class="text-li3">Infraestrutura</span></li>
+                <li><span class="text-li3">Segurança Digital</span></li>
+                <li><span class="text-li3">Site da Empresa</span></li>
+                <li><span class="text-li3">Redes</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/equipe7.jpg" alt="Membro da equipe" />
+          <div class="info">
+            <h3>Ruan Pablo</h3>
+            <p class="cargo">Gerente de Comunicação</p>
+            <div class="detalhes">
+              <p>
+                <strong class="Strong">Experiência:</strong>
+                Responsável por liderar as estratégias de comunicação interna e
+                externa, garantindo alinhamento da marca e eficácia na
+                transmissão de mensagens corporativas.
+              </p>
+              <p><strong class="Strong">Especialidades:</strong></p>
+              <ul>
+                <li><span class="text-li3">Comunicação Corporativa</span></li>
+                <li><span class="text-li3">Gestão de Marca</span></li>
+                <li><span class="text-li3">Estratégias de Mídia</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/equipe8.jpg" alt="Membro da equipe" />
+          <div class="info">
+            <h3>Leandro Dias</h3>
+            <p class="cargo">Colaborador</p>
+            <div class="detalhes">
+              <p>
+                <strong class="Strong">Experiência:</strong>
+                Profissional versátil que atua em diversas áreas operacionais,
+                apoiando o bom funcionamento das atividades da empresa.
+              </p>
+              <p><strong class="Strong">Especialidades:</strong></p>
+              <ul>
+                <li><span class="text-li3">Suporte Operacional</span></li>
+                <li><span class="text-li3">Atendimento Interno</span></li>
+                <li><span class="text-li3">Organização de Processos</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="projetos-section">
+      <div class="container">
+        <h2>Projetos Realizados</h2>
+        <p class="descricao">
+          Veja uma das nossas instalações mais recentes em um laboratório
+          educacional, onde aplicamos nossa tecnologia para criar um ambiente
+          seguro e moderno.
+        </p>
+
+        <div class="projeto-info">
+          <h3>Instalação em Laboratório de Informática</h3>
+          <ul>
+            <li><strong>📍 Local:</strong> Escola Técnica em BH</li>
+            <li>
+              <strong>🖥️ Equipamentos:</strong> Computadores com sistema
+              ElevaTech
+            </li>
+            <li>
+              <strong>📹 Monitoramento:</strong> Câmeras IP Intelbras com DVR
+              Giga Security
+            </li>
+            <li>
+              <strong>📡 Rede:</strong> Cabeamento estruturado com patch panel e
+              switch
+            </li>
+          </ul>
+        </div>
+
+        <div class="galeria-projeto">
+          <div class="card-imagem">
+            <img
+              src="assets/lab1.jpg"
+              alt="Laboratório com computadores ElevaTech"
+            />
+          </div>
+          <div class="card-imagem">
+            <img
+              src="assets/lab2.jpg"
+              alt="Alunos interagindo com os equipamentos"
+            />
+          </div>
+          <div class="card-imagem">
+            <img src="assets/lab3.jpg" alt="Instalação das câmeras Intelbras" />
+          </div>
+          <div class="card-imagem">
+            <img
+              src="assets/lab4.jpg"
+              alt="Sistema de monitoramento em funcionamento"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nossos Diferenciais -->
+    <section class="diferenciais">
+      <div class="container-diferenciais">
+        <h2>Nossos Diferenciais</h2>
+        <div class="grid-diferenciais">
+          <ul>
+            <li>Mais de 1.000 projetos executados com sucesso</li>
+            <li>Parcerias com principais fabricantes mundiais</li>
+            <li>Índice de satisfação superior a 98%</li>
+          </ul>
+          <ul>
+            <li>Equipe técnica certificada e especializada</li>
+            <li>Atendimento 24h em toda região metropolitana</li>
+            <li>Garantia prolongada de 5 anos em todos os produtos</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="contato">
+      <div class="footer-container">
+        <div class="footer-col">
+          <div class="logo"><img src="assets/logo.png" alt="ElevaTech" /></div>
+          <p>
+            Especialistas em segurança eletrônica com mais de 10 anos de
+            experiência. Protegendo o que mais importa para você.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <ul>
+            <li>📍 Belo Horizonte, MG</li>
+            <li>✉ contato@elevatech.com</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Redes Sociais</h4>
+          <div class="social-icons">
+            <a
+              href="https://www.instagram.com/elevatech._?igsh=cmdicjl3MW9naGhl"
+              target="_blank"
+            >
+              <img src="assets/instagram.png" alt="Instagram" />
+            </a>
+            <a
+              href="https://www.tiktok.com/@eleva.tech8?_t=ZM-8z1Ine7rcgw&_r=1"
+              target="_blank"
+            >
+              <img src="assets/tik-tok.png" alt="TikTok" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copy">
+        © 2025 ElevaTech. Todos os direitos reservados. | Desenvolvido com
+        tecnologia de ponta
+      </p>
+    </footer>
+    <script defer src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+    <link rel="stylesheet" href="styleform.css" />
+    <meta charset="UTF-8" />
+    <title>Solicitar Orçamento | ElevaTech</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="form-header">
+        <h2>Solicite seu Orçamento</h2>
+        <img src="assets/logo.png" alt="Logo da Empresa" class="logo" />
+      </div>
+
+      <form action="https://formspree.io/f/SEU_ENDPOINT" method="POST">
+        <input
+          type="text"
+          name="nome"
+          placeholder="Seu nome completo"
+          required
+        />
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+        <input
+          type="tel"
+          name="telefone"
+          placeholder="Telefone com DDD"
+          required
+        />
+        <input
+          type="text"
+          name="empresa"
+          placeholder="Nome da empresa (opcional)"
+        />
+
+        <select name="servico" required>
+          <option value="">Selecione o serviço desejado</option>
+          <option value="Câmeras de Segurança">Câmeras de Segurança</option>
+          <option value="Controle de Acesso">Controle de Acesso</option>
+          <option value="Monitoramento 24h">Monitoramento 24h</option>
+          <option value="Instalação">Instalação</option>
+          <option value="Outros">Outros</option>
+        </select>
+
+        <select name="orcamento" required>
+          <option value="">Quanto pretende investir?</option>
+          <option value="Até R$1.000">Até R$1.000</option>
+          <option value="R$1.000 a R$5.000">R$1.000 a R$5.000</option>
+          <option value="R$5.000 a R$10.000">R$5.000 a R$10.000</option>
+          <option value="Mais de R$10.000">Mais de R$10.000</option>
+        </select>
+
+        <textarea
+          name="mensagem"
+          placeholder="Descreva suas necessidades com detalhes"
+          required
+        ></textarea>
+
+        <div class="form-buttons">
+          <button type="submit">Enviar Solicitação</button>
+          <a href="index.html" class="back-link">← Voltar para o site</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
